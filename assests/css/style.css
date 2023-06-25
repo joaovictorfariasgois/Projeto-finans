@@ -10,3 +10,44 @@
 footer p a{
 	margin: 5px 15px;
 }
+
+@media(max-width:720px){
+	html{
+		font-size: 70%;
+	}
+	
+}
+
+@media(max-width:400px){
+	html{
+		font-size: 60%;
+	}
+}
+
+@media(max-width:340px){
+	html{
+		font-size: 60%;
+	}
+	.logo{
+		width: 50%;
+		padding: 0;
+	}
+	img{
+		width:70%;
+		padding: 10px;
+	}
+}
+
+@media(max-width:314px){
+	html{
+		font-size: 40%;
+	}
+	.navbar-brand{
+		
+		padding: 0;
+	}
+	img{
+		width:70%;
+		padding: 10px;
+	}
+}
